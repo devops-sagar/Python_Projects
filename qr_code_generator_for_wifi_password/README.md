@@ -6,3 +6,4 @@
 - After giving the command and hitting enter, it will ask for the parameters like SSID, Password, WPA methods and all that. Give correct information and hit enter
 
 ## Output look like this
+![demo](https://user-images.githubusercontent.com/54584388/221068763-bd4ac52c-472d-4793-962e-7f030e32496f.png)
