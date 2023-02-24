@@ -1,5 +1,5 @@
 # Dependenacy and installation
-- first install the module using below given command
+- first install the module using below given command  
 ''' pip install wifi-qrcode-generator '''
 - After running the given command type down the 2 line code given in .py file
 - run the command and open up the command prompt and write "**wifi-qrcode-generator**"
