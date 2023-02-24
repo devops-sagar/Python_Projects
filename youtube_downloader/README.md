@@ -3,3 +3,4 @@
 - Video will begin to download with real-time progress
 
 ## Demo to run the command
+![demo](https://user-images.githubusercontent.com/54584388/221080310-82737821-237d-4a03-95a6-24a4b60cff79.png)
