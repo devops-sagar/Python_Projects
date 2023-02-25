@@ -1,8 +1,9 @@
 import requests
 
-# x = requests.get("https://devops-sagar.github.io/portfolio/")                        # 3 various URLs for testing purpose
-x = requests.get("https://cc.csusm.edu/")
-# x = requests.get("https://csusm.instructure.com/")
+'''3 various URLs for testing purpose'''
+# x = requests.get("https://devops-sagar.github.io/portfolio/")
+# x = requests.get("https://cc.csusm.edu/", timeout=0.3)                               # timeout will close the request withing define value and gives error if elapsed time is more then the parameter value - Check (x.elapsed) in line-16 which is the actual time took to serve the request
+x = requests.get("https://csusm.instructure.com/")
 
 print(f"Response URL is: {x.url}")                                                     # returns the URL of the response
 print(f"Status code object will be: {x}")                                              # returns status code object
