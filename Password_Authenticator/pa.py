@@ -1,3 +1,9 @@
+'''
+Initial Module
+This codebase consist of functionalitis like:
+- It can matches the Username entered with the password given in db
+'''
+
 import getpass
 
 db = {
