@@ -30,3 +30,19 @@ print(f"Iterating Content lines: {x.iter_lines()}")                             
 print(f"Header links will be: {x.links}")                                              # returns header links
 print(f"If Error occured this is the statement: {x.raise_for_status}")                 # if an error occur, this method returns a HTTPError object
 x.close()                                                                              # closes the connection to the server
+
+'''
+From here there is a POST request demo to demonstrarte the data posting
+'''
+
+url = 'https://jsonplaceholder.typicode.com/posts'
+
+data = {
+    "id": 5,
+    "title": 'Software Engineer',
+    "body": 'TCS',
+    "userId": 1818688,
+}
+
+response = requests.post(url, json=data)
+print(response.text)
