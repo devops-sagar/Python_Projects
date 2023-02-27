@@ -1,5 +1,4 @@
 
-
 import os
 import random
 import smtplib
@@ -12,7 +11,7 @@ def auto_emails():
     s = smtplib.SMTP('smtp.gmail.com:587')
     s.ehlo()
     s.starttls()
-    s.login("", "")
+    s.login("@gmail.com", "")
     s.sendmail('&&&&&&&&&&&&', email, message)
     print("Email sent successfully...!")
 
