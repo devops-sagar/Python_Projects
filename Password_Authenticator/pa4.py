@@ -14,6 +14,7 @@ db = {
     "spathak4":"car123",
     "nmodi2002":"repeat2002",
     "ashah":"MotaBhai4UP",
+    "test":"123",
 }
 
 uname = input("Enter your UserName : ")
